@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:background="@drawable/users_group"
+        android:id="@+id/photo"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/photo"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPadrao"
+        android:id="@+id/nome"
+        android:hint="Usuario"/>
+
+    <EditText
+        android:id="@+id/profissao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/photo"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/nome"
+        android:textSize="20sp"
+        android:textColor="@color/colorPadrao"
+        android:hint="System Developer"/>
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/photo"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/profissao"
+        android:textSize="20sp"
+        android:textColor="@color/colorPadrao"
+        android:hint="user@mail.com"/>
+
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/photo"
+        android:background="@color/colorPadrao"/>
+
+    <Button
+        android:id="@+id/btn_two"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/btn_one"
+        android:background="@color/colorPadrao"/>
+
+    <Button
+        android:id="@+id/btn_three"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/btn_two"
+        android:background="@color/colorPadrao"/>
+
+</RelativeLayout>
