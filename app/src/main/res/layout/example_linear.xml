@@ -23,17 +23,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/photo"
-            android:layout_margin="20dp"
-            android:textSize="25sp"
+            android:layout_margin="15dp"
+            android:textSize="18sp"
             android:textColor="@color/colorPadrao"
             android:id="@+id/nome"
-            android:hint="User"/>
+            android:hint="Usuario"/>
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:textSize="25sp"
+            android:layout_margin="15dp"
+            android:textSize="18sp"
             android:textColor="@color/colorPadrao"
             android:hint="System Developer"/>
 

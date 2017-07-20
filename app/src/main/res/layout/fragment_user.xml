@@ -25,7 +25,7 @@
             android:textSize="18sp"
             android:textColor="@color/colorPadrao"
             android:id="@+id/nome"
-            android:text="Usuario"/>
+            android:hint="Usuario"/>
 
         <EditText
             android:id="@+id/profissao"
@@ -38,7 +38,7 @@
             android:layout_below="@+id/nome"
             android:textSize="18sp"
             android:textColor="@color/colorPadrao"
-            android:text="System Developer"/>
+            android:hint="System Developer"/>
 
     <EditText
         android:id="@+id/mail"
@@ -51,7 +51,7 @@
         android:layout_below="@+id/profissao"
         android:textSize="18sp"
         android:textColor="@color/colorPadrao"
-        android:text="user@mail.com"/>
+        android:hint="user@mail.com"/>
 
 
 </RelativeLayout>
