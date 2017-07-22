@@ -5,75 +5,96 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:layout_width="170dp"
-        android:layout_height="160dp"
-        android:background="@drawable/users_group"
         android:id="@+id/photo"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:layout_marginTop="15dp"
-        android:layout_marginBottom="15dp" />
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/users_group" />
 
-    <EditText
+    <TextView
+        android:id="@+id/nome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/photo"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="35dp"
         android:textSize="20sp"
-        android:textColor="@color/colorPadrao"
-        android:id="@+id/nome"
+        android:textColor="@color/colorButtonPadrao"
         android:hint="Usuario"/>
 
-    <EditText
+    <TextView
         android:id="@+id/profissao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/photo"
-        android:layout_marginTop="6dp"
+        android:layout_marginTop="10dp"
         android:layout_below="@+id/nome"
         android:textSize="20sp"
-        android:textColor="@color/colorPadrao"
+        android:textColor="@color/colorButtonPadrao"
         android:hint="System Developer"/>
 
-    <EditText
+    <TextView
         android:id="@+id/mail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/photo"
-        android:layout_marginTop="6dp"
+        android:layout_marginTop="10dp"
         android:layout_below="@+id/profissao"
         android:textSize="20sp"
-        android:textColor="@color/colorPadrao"
+        android:textColor="@color/colorButtonPadrao"
         android:hint="user@mail.com"/>
 
     <Button
         android:id="@+id/btn_one"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_below="@+id/photo"
-        android:background="@color/colorPadrao"/>
+        android:textSize="14sp"
+        android:text="Leitura do dia"
+        android:background="@drawable/button_padrao"/>
 
     <Button
         android:id="@+id/btn_two"
-        android:layout_width="match_parent"
+        android:layout_width="190dp"
         android:layout_height="70dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="35dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_below="@+id/btn_one"
-        android:background="@color/colorPadrao"/>
+        android:layout_toRightOf="@+id/btn_one"
+        android:layout_below="@+id/photo"
+        android:textSize="14sp"
+        android:text="Escutar Lição"
+        android:background="@drawable/button_padrao"/>
 
     <Button
         android:id="@+id/btn_three"
-        android:layout_width="match_parent"
+        android:layout_width="190dp"
         android:layout_height="70dp"
         android:layout_marginTop="25dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_below="@+id/btn_two"
-        android:background="@color/colorPadrao"/>
+        android:textSize="14sp"
+        android:text="Meus favoritos"
+        android:background="@drawable/button_padrao"/>
+
+    <Button
+        android:id="@+id/btn_four"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/btn_three"
+        android:layout_below="@+id/btn_two"
+        android:textSize="14sp"
+        android:text="Calcular Saldo"
+        android:background="@drawable/button_padrao"/>
+
 
 </RelativeLayout>
