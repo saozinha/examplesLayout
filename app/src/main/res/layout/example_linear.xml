@@ -13,29 +13,31 @@
 
 
         <ImageView
+            android:id="@+id/photo"
             android:layout_width="90dp"
             android:layout_height="100dp"
-            android:layout_margin="15dp"
-            android:background="@drawable/users_group"
-            android:id="@+id/photo" />
+            android:layout_margin="10dp"
+            android:background="@drawable/users_group" />
 
-        <EditText
+        <TextView
+            android:id="@+id/nome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/photo"
-            android:layout_margin="15dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="10dp"
             android:textSize="18sp"
             android:textColor="@color/colorButtonPadrao"
-            android:id="@+id/nome"
-            android:hint="Usuario"/>
+            android:text="Usuario"/>
 
-        <EditText
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="15dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="10dp"
             android:textSize="18sp"
             android:textColor="@color/colorButtonPadrao"
-            android:hint="System Developer"/>
+            android:text="System Developer"/>
 
     </LinearLayout>
 

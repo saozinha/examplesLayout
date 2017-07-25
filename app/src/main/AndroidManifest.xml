@@ -20,6 +20,8 @@
         </activity>
         <activity android:name=".ControlActivityRelative">
         </activity>
+        <activity android:name=".ControlActivityFrameLayout">
+    </activity>
     </application>
 
 </manifest>

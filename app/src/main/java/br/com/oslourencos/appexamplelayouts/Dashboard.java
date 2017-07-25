@@ -11,7 +11,7 @@ import android.widget.Button;
 
 public class Dashboard extends AppCompatActivity {
 
-    private Button btn_linear, btn_relative, btn_fragment;
+    private Button btn_linear, btn_relative, btn_fragment, btn_framelayout;
     FragmentTransaction fragmentTransaction;
     private boolean showFragment = true;
 
@@ -23,6 +23,7 @@ public class Dashboard extends AppCompatActivity {
         btn_linear = (Button) findViewById(R.id.btn_linear);
         btn_relative = (Button) findViewById(R.id.btn_relative);
         btn_fragment = (Button) findViewById(R.id.btn_fragment);
+        btn_framelayout = (Button) findViewById(R.id.btn_framelayout);
 
         btn_linear.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,6 +36,13 @@ public class Dashboard extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 loadRelative();
+            }
+        });
+
+        btn_framelayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                loadFrameLayout();
             }
         });
 
@@ -58,6 +66,11 @@ public class Dashboard extends AppCompatActivity {
 
     private void loadRelative() {
         startActivity(new Intent(this, ControlActivityRelative.class));
+        finish();
+    }
+
+    private void loadFrameLayout() {
+        startActivity(new Intent(this, ControlActivityFrameLayout.class));
         finish();
     }
 

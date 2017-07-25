@@ -7,7 +7,7 @@
     <color name="colorButtonPadrao">#008B8B</color>
     <color name="colorTextButtonPadrao">#FFFFFF</color>
 
-    <color name="colorTop">#00868B</color><!-- #2E8B57 -->
+    <color name="colorTop">#303F9F</color><!-- #2E8B57 -->
     <color name="colorBackgroundOne">#708090</color>
     <color name="colorBackgroundTwo">#EEE5DE</color>
     <color name="colorButtonEspecial">#DAA520</color>

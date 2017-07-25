@@ -38,12 +38,13 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:layout_gravity="bottom"
-        android:layout_marginBottom="10dp"
-        android:background="#f8852e02"
         android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorButtonPadrao"
         android:padding="16dp"
         android:text="Frame Layout"
         android:textColor="#fff"
